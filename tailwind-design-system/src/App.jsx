@@ -8,6 +8,7 @@ import TailWindTypography from './tailwind-typography/TailWindTypography'
 import TailWindBorder from './tailwind-border/TailwindBorder'
 import TailWindHeightWeight from './tailwind-height-width/TailWindHeightWidth'
 import TailWindDisplayOverFlow from './tailwind-display-overflow/TailWindDisplayOverFlow'
+import TailWindFlex from './tailwind-flex/TailWindFlex'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -20,6 +21,7 @@ function App() {
       <TailWindBorder/> <br />
       <TailWindHeightWeight/> <br />
       <TailWindDisplayOverFlow/> <br />
+      <TailWindFlex/> <br />
     </>
   )
 }
