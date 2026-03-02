@@ -10,6 +10,7 @@ import TailWindHeightWeight from './tailwind-height-width/TailWindHeightWidth'
 import TailWindDisplayOverFlow from './tailwind-display-overflow/TailWindDisplayOverFlow'
 import TailWindFlex from './tailwind-flex/TailWindFlex'
 import TailWindGrid from './tailwind-grid/TailWindGrid'
+import TailWindShadow from './tailwind-shadow/TailWindShadow'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -24,6 +25,7 @@ function App() {
       <TailWindDisplayOverFlow/> <br />
       <TailWindFlex/> <br />
       <TailWindGrid/> <br />
+      <TailWindShadow/> <br />
     </>
   )
 }
