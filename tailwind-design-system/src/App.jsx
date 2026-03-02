@@ -6,6 +6,7 @@ import TailWindColors from './tailwind-colors/tailwindColors'
 import TailWindMarginPadding from './tailwind-margin-padding/TailWindMarginPadding'
 import TailWindTypography from './tailwind-typography/TailWindTypography'
 import TailWindBorder from './tailwind-border/TailwindBorder'
+import TailWindHeightWeight from './tailwind-height-width/TailWindHeightWidth'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,6 +17,7 @@ function App() {
       <TailWindMarginPadding/> <br />
       <TailWindTypography/> <br />
       <TailWindBorder/> <br />
+      <TailWindHeightWeight/> <br />
     </>
   )
 }
